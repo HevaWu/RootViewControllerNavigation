@@ -21,6 +21,8 @@
 		F004D8F123963F7A008133C9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004D8F023963F79008133C9 /* MainTabBarController.swift */; };
 		F004D8F4239642C9008133C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004D8F2239642C9008133C9 /* LoginViewController.swift */; };
 		F004D8F5239642C9008133C9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F004D8F3239642C9008133C9 /* LoginViewController.xib */; };
+		F004D8F8239644CB008133C9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004D8F6239644CB008133C9 /* FirstViewController.swift */; };
+		F004D8F9239644CB008133C9 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F004D8F7239644CB008133C9 /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		F004D8F023963F79008133C9 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		F004D8F2239642C9008133C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F004D8F3239642C9008133C9 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		F004D8F6239644CB008133C9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F004D8F7239644CB008133C9 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 				F004D8E723963D1F008133C9 /* SplashViewController.xib */,
 				F004D8F2239642C9008133C9 /* LoginViewController.swift */,
 				F004D8F3239642C9008133C9 /* LoginViewController.xib */,
+				F004D8F6239644CB008133C9 /* FirstViewController.swift */,
+				F004D8F7239644CB008133C9 /* FirstViewController.xib */,
 				F004D8EC23963E48008133C9 /* LogoutViewController.swift */,
 				F004D8ED23963E48008133C9 /* LogoutViewController.xib */,
 			);
@@ -162,6 +168,7 @@
 				F004D8F5239642C9008133C9 /* LoginViewController.xib in Resources */,
 				F004D8D323963B4E008133C9 /* Main.storyboard in Resources */,
 				F004D8E923963D1F008133C9 /* SplashViewController.xib in Resources */,
+				F004D8F9239644CB008133C9 /* FirstViewController.xib in Resources */,
 				F004D8EF23963E48008133C9 /* LogoutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F004D8F8239644CB008133C9 /* FirstViewController.swift in Sources */,
 				F004D8D023963B4E008133C9 /* ViewController.swift in Sources */,
 				F004D8CC23963B4E008133C9 /* AppDelegate.swift in Sources */,
 				F004D8E523963CBA008133C9 /* RootViewController.swift in Sources */,
