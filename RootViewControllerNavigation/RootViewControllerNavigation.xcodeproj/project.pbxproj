@@ -13,6 +13,14 @@
 		F004D8D323963B4E008133C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F004D8D123963B4E008133C9 /* Main.storyboard */; };
 		F004D8D523963B50008133C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F004D8D423963B50008133C9 /* Assets.xcassets */; };
 		F004D8D823963B50008133C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F004D8D623963B50008133C9 /* LaunchScreen.storyboard */; };
+		F004D8E523963CBA008133C9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004D8E423963CBA008133C9 /* RootViewController.swift */; };
+		F004D8E823963D1F008133C9 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004D8E623963D1F008133C9 /* SplashViewController.swift */; };
+		F004D8E923963D1F008133C9 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F004D8E723963D1F008133C9 /* SplashViewController.xib */; };
+		F004D8EE23963E48008133C9 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004D8EC23963E48008133C9 /* LogoutViewController.swift */; };
+		F004D8EF23963E48008133C9 /* LogoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F004D8ED23963E48008133C9 /* LogoutViewController.xib */; };
+		F004D8F123963F7A008133C9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004D8F023963F79008133C9 /* MainTabBarController.swift */; };
+		F004D8F4239642C9008133C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004D8F2239642C9008133C9 /* LoginViewController.swift */; };
+		F004D8F5239642C9008133C9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F004D8F3239642C9008133C9 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		F004D8D423963B50008133C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F004D8D723963B50008133C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F004D8D923963B50008133C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F004D8E423963CBA008133C9 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F004D8E623963D1F008133C9 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		F004D8E723963D1F008133C9 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		F004D8EC23963E48008133C9 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		F004D8ED23963E48008133C9 /* LogoutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogoutViewController.xib; sourceTree = "<group>"; };
+		F004D8F023963F79008133C9 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		F004D8F2239642C9008133C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F004D8F3239642C9008133C9 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			children = (
 				F004D8CB23963B4E008133C9 /* AppDelegate.swift */,
 				F004D8CD23963B4E008133C9 /* SceneDelegate.swift */,
+				F004D8E323963C9F008133C9 /* RootViewControllers */,
 				F004D8CF23963B4E008133C9 /* ViewController.swift */,
 				F004D8D123963B4E008133C9 /* Main.storyboard */,
 				F004D8D423963B50008133C9 /* Assets.xcassets */,
@@ -65,6 +82,21 @@
 				F004D8D923963B50008133C9 /* Info.plist */,
 			);
 			path = RootViewControllerNavigation;
+			sourceTree = "<group>";
+		};
+		F004D8E323963C9F008133C9 /* RootViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F004D8E423963CBA008133C9 /* RootViewController.swift */,
+				F004D8F023963F79008133C9 /* MainTabBarController.swift */,
+				F004D8E623963D1F008133C9 /* SplashViewController.swift */,
+				F004D8E723963D1F008133C9 /* SplashViewController.xib */,
+				F004D8F2239642C9008133C9 /* LoginViewController.swift */,
+				F004D8F3239642C9008133C9 /* LoginViewController.xib */,
+				F004D8EC23963E48008133C9 /* LogoutViewController.swift */,
+				F004D8ED23963E48008133C9 /* LogoutViewController.xib */,
+			);
+			path = RootViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +159,10 @@
 			files = (
 				F004D8D823963B50008133C9 /* LaunchScreen.storyboard in Resources */,
 				F004D8D523963B50008133C9 /* Assets.xcassets in Resources */,
+				F004D8F5239642C9008133C9 /* LoginViewController.xib in Resources */,
 				F004D8D323963B4E008133C9 /* Main.storyboard in Resources */,
+				F004D8E923963D1F008133C9 /* SplashViewController.xib in Resources */,
+				F004D8EF23963E48008133C9 /* LogoutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +175,12 @@
 			files = (
 				F004D8D023963B4E008133C9 /* ViewController.swift in Sources */,
 				F004D8CC23963B4E008133C9 /* AppDelegate.swift in Sources */,
+				F004D8E523963CBA008133C9 /* RootViewController.swift in Sources */,
+				F004D8F123963F7A008133C9 /* MainTabBarController.swift in Sources */,
+				F004D8F4239642C9008133C9 /* LoginViewController.swift in Sources */,
 				F004D8CE23963B4E008133C9 /* SceneDelegate.swift in Sources */,
+				F004D8EE23963E48008133C9 /* LogoutViewController.swift in Sources */,
+				F004D8E823963D1F008133C9 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
