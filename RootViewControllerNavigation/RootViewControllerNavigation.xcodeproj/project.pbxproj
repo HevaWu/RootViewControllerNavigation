@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		F004D8CC23963B4E008133C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004D8CB23963B4E008133C9 /* AppDelegate.swift */; };
 		F004D8CE23963B4E008133C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004D8CD23963B4E008133C9 /* SceneDelegate.swift */; };
-		F004D8D023963B4E008133C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004D8CF23963B4E008133C9 /* ViewController.swift */; };
-		F004D8D323963B4E008133C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F004D8D123963B4E008133C9 /* Main.storyboard */; };
 		F004D8D523963B50008133C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F004D8D423963B50008133C9 /* Assets.xcassets */; };
 		F004D8D823963B50008133C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F004D8D623963B50008133C9 /* LaunchScreen.storyboard */; };
 		F004D8E523963CBA008133C9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004D8E423963CBA008133C9 /* RootViewController.swift */; };
@@ -29,8 +27,6 @@
 		F004D8C823963B4E008133C9 /* RootViewControllerNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RootViewControllerNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F004D8CB23963B4E008133C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F004D8CD23963B4E008133C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F004D8CF23963B4E008133C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F004D8D223963B4E008133C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F004D8D423963B50008133C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F004D8D723963B50008133C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F004D8D923963B50008133C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +59,7 @@
 				F004D8CA23963B4E008133C9 /* RootViewControllerNavigation */,
 				F004D8C923963B4E008133C9 /* Products */,
 			);
+			indentWidth = 5;
 			sourceTree = "<group>";
 		};
 		F004D8C923963B4E008133C9 /* Products */ = {
@@ -79,8 +76,6 @@
 				F004D8CB23963B4E008133C9 /* AppDelegate.swift */,
 				F004D8CD23963B4E008133C9 /* SceneDelegate.swift */,
 				F004D8E323963C9F008133C9 /* RootViewControllers */,
-				F004D8CF23963B4E008133C9 /* ViewController.swift */,
-				F004D8D123963B4E008133C9 /* Main.storyboard */,
 				F004D8D423963B50008133C9 /* Assets.xcassets */,
 				F004D8D623963B50008133C9 /* LaunchScreen.storyboard */,
 				F004D8D923963B50008133C9 /* Info.plist */,
@@ -166,7 +161,6 @@
 				F004D8D823963B50008133C9 /* LaunchScreen.storyboard in Resources */,
 				F004D8D523963B50008133C9 /* Assets.xcassets in Resources */,
 				F004D8F5239642C9008133C9 /* LoginViewController.xib in Resources */,
-				F004D8D323963B4E008133C9 /* Main.storyboard in Resources */,
 				F004D8E923963D1F008133C9 /* SplashViewController.xib in Resources */,
 				F004D8F9239644CB008133C9 /* FirstViewController.xib in Resources */,
 				F004D8EF23963E48008133C9 /* LogoutViewController.xib in Resources */,
@@ -181,7 +175,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F004D8F8239644CB008133C9 /* FirstViewController.swift in Sources */,
-				F004D8D023963B4E008133C9 /* ViewController.swift in Sources */,
 				F004D8CC23963B4E008133C9 /* AppDelegate.swift in Sources */,
 				F004D8E523963CBA008133C9 /* RootViewController.swift in Sources */,
 				F004D8F123963F7A008133C9 /* MainTabBarController.swift in Sources */,
@@ -195,14 +188,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F004D8D123963B4E008133C9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F004D8D223963B4E008133C9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F004D8D623963B50008133C9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
