@@ -28,6 +28,13 @@ class SplashViewController: UIViewController {
         DispatchQueue.global().asyncAfter(deadline: DispatchTime.now() + 3) { [weak self] in
             print("[API] Server API Preloaded")
             self?.activityIndicator.stopAnimating()
+            
+            // temporary use UserDefaults for checking status
+            if UserDefaults.standard.bool(forKey: "He-Wu.RootViewControllerNavigation.login") {
+                // navigate to main page
+            } else {
+                // navigate to login page
+            }
         }
     }
 }
