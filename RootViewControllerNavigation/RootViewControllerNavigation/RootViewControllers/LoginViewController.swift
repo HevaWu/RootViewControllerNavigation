@@ -13,6 +13,7 @@ class LoginViewController: UIViewController {
     @IBAction func tapLoginButton(_ sender: Any) {
         UserDefaults.standard.set(true, forKey: "He-Wu.RootViewControllerNavigation.login")
         print("[Authentication] Login Successfully")
+        AppDelegate.shared.rootViewController.switchToMain()
     }
     
     override func viewDidLoad() {

@@ -50,6 +50,21 @@ final class RootViewController: UIViewController {
         // replace root with loginVC
         root = loginVC
     }
+    
+    func switchToMain() {
+        let mainVC = MainTabBarController()
+        
+        addChild(mainVC)
+        mainVC.view.frame = view.bounds
+        view.addSubview(mainVC.view)
+        mainVC.didMove(toParent: self)
+        
+        root.willMove(toParent: nil)
+        root.view.removeFromSuperview()
+        root.removeFromParent()
+        
+        root = mainVC
+    }
 }
 
 

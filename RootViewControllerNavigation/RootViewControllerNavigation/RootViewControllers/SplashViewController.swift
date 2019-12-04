@@ -34,6 +34,7 @@ class SplashViewController: UIViewController {
                // temporary use UserDefaults for checking status
                if UserDefaults.standard.bool(forKey: "He-Wu.RootViewControllerNavigation.login") {
                     // navigate to main page
+                    AppDelegate.shared.rootViewController.switchToMain()
                } else {
                     // navigate to login page
                     AppDelegate.shared.rootViewController.switchToLogin()
