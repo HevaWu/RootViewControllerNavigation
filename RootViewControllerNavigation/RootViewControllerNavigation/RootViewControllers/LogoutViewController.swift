@@ -15,6 +15,7 @@ class LogoutViewController: UIViewController {
         // temporary mock logout actions
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3) { [weak self] in
             print("Logout Successfully")
+            UserDefaults.standard.set(false, forKey: "He-Wu.RootViewControllerNavigation.login")
             AppDelegate.shared.rootViewController.switchToLogin()
         }
     }
